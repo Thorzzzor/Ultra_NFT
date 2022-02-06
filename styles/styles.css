@@ -1,0 +1,387 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+    max-width: 1920px;
+    background-color: #030812;
+}
+
+.header {
+    max-width: 1920px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.header-body {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    margin: auto 0;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    width: 215px;
+    justify-content: space-between;
+}
+
+.logo__img {
+    display: flex;
+    justify-content: center;
+}
+
+.logo__img img {
+    width: 46px;
+    height: 53px;
+}
+
+.logo__text {
+    color: #ffffff;
+    /* Ultra NFT */
+
+    position: static;
+    width: 100%;
+    height: 48px;
+    left: 76px;
+    top: calc(50% - 48px / 2);
+
+    /* Headings/H4-Bold */
+    font-family: Urbanist, "Roboto Light", serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 48px;
+    /* identical to box height, or 150% */
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0 12px;
+}
+
+.search-field {
+    display: flex;
+    width: 296px;
+    height: 48px;
+    justify-content: space-between;
+    margin: 0 37px;
+}
+
+.search-field__input {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.search-field input {
+    width: 264px;
+    height: 100%;
+    background: #3C485D;
+    border-radius: 0 8px 8px 0;
+}
+
+.search-field__submit {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    top: 0;
+    right: 296px;
+}
+
+.search-field__submit button {
+    width: 100%;
+    height: 100%;
+    background: #3C485D;
+    border-radius: 8px 0 0 8px;
+}
+
+.search-field__submit button:before {
+    content: "\f002";
+    font-family: FontAwesome, serif;
+    font-size: 16px;
+    color: white;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 553px;
+    height: 100%;
+}
+
+.links__item {
+    height: 100%;
+}
+
+.links__item a {
+    /* Contact us */
+
+    position: static;
+    width: 79px;
+    height: 24px;
+    left: 237px;
+    top: 16px;
+
+    /* Paragraph/Body-Regular-Bold */
+    font-family: Urbanist, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    /* identical to box height, or 150% */
+
+    color: #FFFFFF;
+
+}
+
+.links__item button {
+    height: 56px;
+    width: 185px;
+    background-image: url("../img/img_1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 14px;
+}
+
+.hero {
+    max-width: 1920px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    width: 470px;
+    height: 374px;
+    display: inline-grid;
+}
+
+.content__text-1 {
+    font-family: Urbanist, "Roboto Light", serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 64px;
+    color: #FFFFFF;
+}
+
+.content__text-1 span {
+    color: #FD3D71;
+}
+
+.content__text-2 {
+    font-family: Urbanist, "Roboto Light", serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.content__navigate-buttons {
+    width: 434px;
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.explore {
+    background-image: url("../img/btn_explore.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #030812;
+    width: 212px;
+    height: 72px;
+    border-radius: 8px;
+}
+
+.btn-create {
+    background-color: #030812;
+    background-image: url("../img/btn_create.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 206px;
+    height: 72px;
+    border-radius: 8px;
+}
+
+.image {
+    width: 670px;
+    height: 570px;
+}
+
+.image__item {
+    width: 670px;
+    height: 570px;
+    background-image: url("../img/discover.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.how-it-works {
+    max-width: 1920px;
+    height: 380px;
+    display: block;
+    justify-content: center;
+}
+
+.how-it-works__title h1 {
+    font-family: Urbanist, "Roboto Light", serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 88px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.images-boxes {
+    display: flex;
+    max-width: 70%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.set-up-block {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.set-up-block__img {
+    width: 80px;
+    height: 80px;
+    background-image: url("../img/how-it-works/wallet.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.set-up-block__text1 {
+    font-family: Urbanist, "Roboto Light", serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.set-up-block__text2 {
+    font-family: Urbanist, "Roboto Light", serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.create-block {
+
+}
+
+.create-block__img {
+    width: 80px;
+    height: 80px;
+    background-image: url("../img/how-it-works/collection.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.create-block__text1 {
+    font-family: Urbanist, "Roboto Light", serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.create-block__text2 {
+    font-family: Urbanist, "Roboto Light", serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.add-block {
+
+}
+
+.add-block__img {
+    width: 80px;
+    height: 80px;
+    background-image: url("../img/how-it-works/gallery.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.add-block__text1 {
+    font-family: Urbanist, "Roboto Light", serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.add-block__text2 {
+    font-family: Urbanist, "Roboto Light", serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.list-block {
+
+}
+
+.list-block__img {
+    width: 80px;
+    height: 80px;
+    background-image: url("../img/how-it-works/market.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.list-block__text1 {
+    font-family: Urbanist, "Roboto Light", serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.list-block__text2 {
+    font-family: Urbanist, "Roboto Light", serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
