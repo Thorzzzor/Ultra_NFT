@@ -237,6 +237,7 @@ body {
     height: 380px;
     display: block;
     justify-content: center;
+    margin-top: 160px;
 }
 
 .how-it-works__title h1 {
@@ -253,24 +254,31 @@ body {
     display: flex;
     max-width: 70%;
     margin: 0 auto;
-    justify-content: center;
+    margin-top: 56px;
+    justify-content: space-between;
 }
 
-.set-up-block {
+.table {
     display: flex;
     align-items: center;
     flex-direction: column;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 30px;
 }
 
-.set-up-block__img {
+.table:last-child {
+    margin-right: 0;
+}
+
+.table__img {
     width: 80px;
     height: 80px;
-    background-image: url("../img/how-it-works/wallet.png");
     background-repeat: no-repeat;
     background-size: contain;
 }
 
-.set-up-block__text1 {
+.table__text1 {
     font-family: Urbanist, "Roboto Light", serif;
     font-style: normal;
     font-weight: bold;
@@ -280,7 +288,7 @@ body {
     color: #FFFFFF;
 }
 
-.set-up-block__text2 {
+.table__text2 {
     font-family: Urbanist, "Roboto Light", serif;
     font-style: normal;
     font-weight: normal;
@@ -290,98 +298,364 @@ body {
     color: #FFFFFF;
 }
 
-.create-block {
+.live-auctions {
+    max-width: 1920px;
+    margin-top: 160px;
+}
+
+.auctions-title {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.auctions-title h1 {
+    font-family: Urbanist, "Roboto Light", serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 88px;
+    color: #FFFFFF;
 
 }
 
-.create-block__img {
-    width: 80px;
-    height: 80px;
-    background-image: url("../img/how-it-works/collection.png");
+.auctions-title button {
+    width: 242px;
+    height: 72px;
+    background-color: #030812;
+    background-image: url("../img/explore-all.png");
     background-repeat: no-repeat;
     background-size: contain;
 }
 
-.create-block__text1 {
+.slider {
+    max-width: 1920px;
+    margin-top: 56px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    overflow: scroll;
+}
+
+.row::-webkit-scrollbar {
+    display: none;
+}
+
+.row__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 24px;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(40px);
+    margin-right: 30px;
+    padding: 24px;
+}
+
+.card-image {
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 422px;
+    height: 422px;
+
+}
+
+.card-content {
+    width: 422px;
+}
+
+.card-content__row {
+    margin: 24px 0;
+}
+
+.card-content__row:nth-child(2) {
+    display: flex;
+    justify-content: space-around;
+}
+
+.row-content {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.content__avatar {
+    margin-right: 12px;
+    width: 56px;
+    height: 56px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.content__text {
+
+}
+
+.content__text h5 {
     font-family: Urbanist, "Roboto Light", serif;
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
     line-height: 32px;
-    text-align: center;
     color: #FFFFFF;
 }
 
-.create-block__text2 {
+.content__text p {
     font-family: Urbanist, "Roboto Light", serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 24px;
+    color: #FFFFFF
+}
+
+.content__text span {
+    color: #8393AF;
+}
+
+.card-content__row {
+
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item img {
+    margin: 0 auto;
+    width: 24px;
+    height: 24px;
+}
+
+.item p {
+    margin-top: 4px;
+    font-family: Urbanist, "Roboto Light", serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.item span {
+    color: #8393AF;
+}
+
+.card-content__row {
+
+}
+
+.buttons {
+    display: flex;
+}
+
+.timer {
+    width: 151px;
+    height: 56px;
+    margin-right: 16px;
+    background-image: url("../img/slider/timer.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: inherit;
+}
+
+.place-bid {
+    width: 255px;
+    height: 56px;
+    background-image: url("../img/slider/place-bid.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: inherit;
+}
+
+.dots {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.dots__body {
+    display: flex;
+}
+
+.dot {
+    width: 12px;
+    height: 12px;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 50%;
+    flex: none;
+    order: 5;
+    flex-grow: 0;
+    margin: 0 12px;
+}
+
+.dot:hover {
+    width: 12px;
+    height: 12px;
+    transform: scale(1.5);
+    background-color: #FFFFFF;
+}
+
+.popular-collections {
+    max-width: 1170px;
+    display: block;
+    /*width: 70%;*/
+    margin: 0 auto;
+    margin-top: 160px;
+}
+
+.pop-collections__title {
+    /*width: 70%;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 56px;
+}
+
+.pop-collections__title h1 {
+    font-family: Urbanist, "Roboto Light", serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 88px;
     text-align: center;
     color: #FFFFFF;
 }
 
-.add-block {
-
-}
-
-.add-block__img {
-    width: 80px;
-    height: 80px;
-    background-image: url("../img/how-it-works/gallery.png");
+.pop-collections__title button {
+    width: 242px;
+    height: 72px;
+    background-color: #030812;
+    background-image: url("../img/popular-collections/explore_all.png");
     background-repeat: no-repeat;
     background-size: contain;
 }
 
-.add-block__text1 {
-    font-family: Urbanist, "Roboto Light", serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 32px;
-    text-align: center;
-    color: #FFFFFF;
+.content-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
 }
 
-.add-block__text2 {
-    font-family: Urbanist, "Roboto Light", serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    text-align: center;
-    color: #FFFFFF;
+.card {
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 24px;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(40px);
 }
 
-.list-block {
-
+.card:last-child {
+    margin-right: 0;
 }
 
-.list-block__img {
-    width: 80px;
-    height: 80px;
-    background-image: url("../img/how-it-works/market.png");
+.card__collage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 24px;
+}
+
+.card__collage div{
+    width: 155px;
+    height: 155px;
+    margin-bottom: 12px;
+    margin-right: 12px;
     background-repeat: no-repeat;
     background-size: contain;
 }
 
-.list-block__text1 {
-    font-family: Urbanist, "Roboto Light", serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 32px;
-    text-align: center;
-    color: #FFFFFF;
+.card__collage div:nth-child(2), .card__collage div:nth-child(4) {
+    margin-bottom: 12px;
+    margin-right: 0;
 }
 
-.list-block__text2 {
-    font-family: Urbanist, "Roboto Light", serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    text-align: center;
-    color: #FFFFFF;
+.card__content {
+    /*width: 100%;*/
+    display: flex;
+    flex-direction: row;
+    /*justify-content: space-around;*/
+    align-items: center;
+    margin-bottom: 24px;
+    padding: 0;
+    position: static;
+    width: 322px;
+    height: 56px;
+    left: 24px;
+    top: 370px;
 }
+
+.content__text {
+    flex-grow: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
