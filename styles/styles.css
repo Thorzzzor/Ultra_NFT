@@ -45,7 +45,6 @@ body {
 
 .logo__text {
     color: #ffffff;
-    /* Ultra NFT */
 
     position: static;
     width: 100%;
@@ -53,16 +52,13 @@ body {
     left: 76px;
     top: calc(50% - 48px / 2);
 
-    /* Headings/H4-Bold */
     font-family: Urbanist, "Roboto Light", serif;
     font-style: normal;
     font-weight: bold;
     font-size: 32px;
     line-height: 48px;
-    /* identical to box height, or 150% */
 
 
-    /* Inside auto layout */
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -125,7 +121,6 @@ body {
 }
 
 .links__item a {
-    /* Contact us */
 
     position: static;
     width: 79px;
@@ -133,14 +128,12 @@ body {
     left: 237px;
     top: 16px;
 
-    /* Paragraph/Body-Regular-Bold */
     font-family: Urbanist, serif;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
     line-height: 24px;
     text-decoration: none;
-    /* identical to box height, or 150% */
 
     color: #FFFFFF;
 
@@ -506,13 +499,11 @@ body {
 .popular-collections {
     max-width: 1170px;
     display: block;
-    /*width: 70%;*/
     margin: 0 auto;
     margin-top: 160px;
 }
 
 .pop-collections__title {
-    /*width: 70%;*/
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -566,7 +557,7 @@ body {
     margin: 24px;
 }
 
-.card__collage div{
+.card__collage div {
     width: 155px;
     height: 155px;
     margin-bottom: 12px;
@@ -581,10 +572,8 @@ body {
 }
 
 .card__content {
-    /*width: 100%;*/
     display: flex;
     flex-direction: row;
-    /*justify-content: space-around;*/
     align-items: center;
     margin-bottom: 24px;
     padding: 0;
@@ -599,9 +588,68 @@ body {
     flex-grow: 1;
 }
 
+.top-sellers {
+    max-width: 1170px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 160px;
+}
 
+.top-sellers__title {
+    margin-bottom: 56px;
+}
 
+.top-sellers__title h1 {
+    font-family: Urbanist, "Roboto Light", serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 88px;
+    text-align: center;
+    color: #FFFFFF;
+}
 
+.sellers-content {
+    display: block;
+}
+
+.content-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.content-row__seller {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(40px);
+    border-radius: 24px;
+    width: 270px;
+    height: 104px;
+}
+
+.content-row__seller div {
+    width: 72px;
+    height: 72px;
+    background-image: url("../img/top-sellers/img.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.content-row__seller p {
+    font-family: Urbanist, "Roboto Light", serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-right: 16px;
+}
 
 
 
