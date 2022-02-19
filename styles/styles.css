@@ -651,36 +651,164 @@ body {
     margin-right: 16px;
 }
 
+.todays-picks {
+    margin-top: 160px;
+}
 
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
 
+.title {
+    margin: 0 auto;
+}
 
+.container__title-text {
+    font-family: Urbanist, "Roboto Light", serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 88px;
+    text-align: center;
+    color: #FFFFFF;
+}
 
+.box {
+    display: block;
+    margin: 56px auto;
+}
 
+.row-box {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
 
+.row-box__card {
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(40px);
+    border-radius: 24px;
+}
 
+.row-box__card-image {
 
+}
 
+.row-box__image {
+    width: 322px;
+    height: 322px;
+    margin: 24px 24px 0 24px;
+}
 
+.row-box__card-content {
 
+}
 
+.row-box__content-avatar {
+    display: flex;
+    margin: 24px 24px 0 24px
+}
 
+.row-box__avatar-image {
+    width: 56px;
+    height: 56px;
+    margin-right: 12px;
+}
 
+.row-box__avatar-content {
+    display: block;
+}
 
+.row-box__avatar-title {
+    font-family: Urbanist, "Roboto Light", serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
 
+.row-box__avatar-text {
+    font-family: Urbanist, "Roboto Light", serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
 
+.grey-text {
+    color: #8393AF;
+}
 
+.row-box__content-icons {
+    display: flex;
+    justify-content: space-around;
+    margin: 24px 24px 0 24px;
+}
 
+.row-box__content-icon {
+    display: flex;
+    flex-direction: column;
+    font-family: Urbanist, "Roboto Light", serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
 
+.row-box__icon {
+    width: 24px;
+    height: 24px;
+    margin: 0 auto;
+}
 
+.row-box__number {
 
+}
 
+.row-box__content-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin: 24px 24px 24px 24px;
+}
 
+.row-box__view-history {
+    background-image: url("../img/todays-picks/img_4.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: rgba(53, 57, 66, 1);
+    backdrop-filter: blur(40px);
+    width: 153px;
+    height: 56px;
+}
 
+.row-box__place-bid {
+    background-image: url("../img/todays-picks/img_5.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: rgba(53, 57, 66, 1);
+    backdrop-filter: blur(40px);
+    width: 153px;
+    height: 56px;
+}
 
+.button {
+    display: flex;
+    justify-content: center;
+}
 
-
-
-
+.load-more {
+    background-image: url("../img/todays-picks/img_6.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: inherit;
+    width: 241px;
+    height: 72px;
+    margin: 0 auto;
+}
 
 
 
